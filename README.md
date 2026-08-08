@@ -2,7 +2,7 @@
 
 A web app designed to help Shakespearean actors learn lines and prepare for performances
 
-** Planned Features **
+**Planned Features**
 - Automatically pull script for all scenes where your character is onstage
 - Automatically highlight your character's lines
 - Allow editing, insertion, and deletion of lines
@@ -15,6 +15,6 @@ Ways to interact with your script:
 - Focused prep: Practice flashcards containing only your cues and lines
 - Auditory learning: Hear your scenes read aloud, with breaks for you to recite your lines
 
-** Current known issues **
+**Current known issues**
 - Lines spoken from offstage may not be included in scripts (i.e. Hamlet's father speaking from below)
 - Some plays may have multiple characters listed under the same name (i.e. Servant or Doctor)
