@@ -5,7 +5,7 @@
         </button>
     </div>
     <div class="flex-1">
-        <a class="btn btn-ghost text-2xl btn-secondary ml-2">ShakesPrep</a>
+        <a class="btn btn-ghost text-3xl btn-secondary ml-2">ShakesPrep</a>
     </div>
     <div class="flex-none">
         <button class="btn btn-square btn-ghost btn-secondary">
