@@ -10,11 +10,14 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="{{asset('resources/layout.css')}}">
     <link rel="stylesheet" href="{{asset('resources/footer.css')}}">
+    <script src="https://cdn.jsdelivr.net/npm/@hot-page/hotfx-shy-header@0.0.0" type="text/javascript" defer></script>
     <title>{{ $title }}</title>
 </head>
 <body class="bg-base-100">
-    <x-header></x-header>
-    <main>
+    <hotfx-shy-header>
+        <x-header></x-header>
+    </hotfx-shy-header>
+    <main class="mt-8 mb-8 mx-16">
         {{ $slot }}
     </main>
     <x-footer></x-footer>
