@@ -18,3 +18,9 @@ Ways to interact with your script:
 **Current known issues**
 - Lines spoken from offstage may not be included in scripts (i.e. Hamlet's father speaking from below)
 - Some plays may have multiple characters listed under the same name (i.e. Servant or Doctor)
+
+**Credits and Acknowledgements**
+- Created in [Laravel](https://laravel.com/)
+- Styled using [daisyUI](https://daisyui.com/) components
+- [Folger Shakespeare API Tools](https://www.folgerdigitaltexts.org/api)
+- [HotFX Shy Header](https://fx.hot.page/shy-header/source)
