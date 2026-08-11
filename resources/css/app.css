@@ -21,4 +21,6 @@
     --color-base-100: #FEFAE0; /* Main background */
     --color-base-200: #E2DBBE; /* Button background */
     --color-base-content: #413B2A; /* Text */
+    --radius-box: 6px;
+    --radius-field: 6px;
 }

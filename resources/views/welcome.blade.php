@@ -15,15 +15,15 @@
     </div>
     <div class="flex flex-col items-center gap-y-2">
         <h1 class="text-3xl font-bold">Get Started!</h1>
-        <div>
+        <div class="flex flex-col items-center">
             <h3 class="text-lg font-medium m-2 text-center">Preparing for an audition?</h3>
             <a class="btn btn-lg w-56" href="/monologues">Find a Monologue</a>
         </div>
-        <div>
+        <div class="flex flex-col items-center">
             <h3 class="text-lg font-medium m-2 text-center">Preparing for a performance?</h3>
             <a class="btn btn-lg w-56" href="/script">Create my Script</a>
         </div>
-        <div>
+        <div class="flex flex-col items-center">
             <h3 class="text-lg font-medium m-2 text-center">Need to build a study plan?</h3>
             <a class="btn btn-lg w-56" href="/schedule">Create a Study Plan</a>
         </div>
