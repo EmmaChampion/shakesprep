@@ -1,12 +1,12 @@
 <x-master-layout title="Home">
     <div class="mb-8">
         <h2 class="text-3xl font-bold text-center m-4">Welcome to ShakesPrep!</h2>
-        <p class="mb-2">
+        <p class="mb-2 text-lg">
             ShakesPrep is a platform designed to help you prepare to perform the Bard's works.
             Whether you're new to the stage or a veteran of Elizabethan theatre, I hope you can 
             find something here to help you on your way.
         </p>
-        <p>
+        <p class="text-lg">
             Because ShakesPrep is currently a work in progress, I appreicate your patience with site 
             updates and changes. If you notice a bug or issue or have any suggestions, please feel free to
             reach out via my <a href="/contact" class="underline">Contact</a> page or check out the
