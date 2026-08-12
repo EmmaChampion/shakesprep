@@ -24,8 +24,8 @@
             <a class="btn btn-lg w-56" href="/script">Create my Script</a>
         </div>
         <div class="flex flex-col items-center">
-            <h3 class="text-lg font-medium m-2 text-center">Need to build a study plan?</h3>
-            <a class="btn btn-lg w-56" href="/schedule">Create a Study Plan</a>
+            <h3 class="text-lg font-medium m-2 text-center">Need to plan your study time?</h3>
+            <a class="btn btn-lg w-56" href="/schedule">Build a Study Plan</a>
         </div>
         </div>
 </x-master-layout>

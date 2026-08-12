@@ -1,6 +1,7 @@
 <footer class="footer sm:footer-horizontal footer-center bg-primary text-secondary p-4">
   <aside class="w-full">
     <div class="flex justify-around w-full text-lg">
+        <a href="/">Home</a>
         <a href="/about">About ShakesPrep</a>
         <a href="/contact">Contact</a>
         <a href="https://github.com/EmmaChampion/shakesprep" target="_blank">GitHub</a>

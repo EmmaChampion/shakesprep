@@ -2,14 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
 
-Route::get('/contact', function () {
-    return view('info/contact');
-});
-
+Route::view('/contact', 'info/contact');
 Route::post('/contact', function() {
+    //Currently don't have email set up
     return redirect('/contact');
 });
+
+Route::view('about', 'info/about');
