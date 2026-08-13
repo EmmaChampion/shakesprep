@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'welcome');
+Route::view('/', 'home');
 
 Route::view('/contact', 'info/contact');
 Route::post('/contact', function() {
