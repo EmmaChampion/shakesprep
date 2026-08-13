@@ -27,5 +27,5 @@
             <h3 class="text-lg font-medium m-2 text-center">Need to plan your study time?</h3>
             <a class="btn btn-lg w-56" href="/schedule">Build a Study Plan</a>
         </div>
-        </div>
+    </div>
 </x-master-layout>

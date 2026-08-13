@@ -11,3 +11,6 @@ Route::post('/contact', function() {
 });
 
 Route::view('about', 'info/about');
+
+//Testing - Use Script model/controller later
+Route::view('script', 'script/characterSelect');
