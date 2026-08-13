@@ -1,1 +1,1 @@
-import './playCodes.js';
+import './custom-scripts/playCodes.js';
