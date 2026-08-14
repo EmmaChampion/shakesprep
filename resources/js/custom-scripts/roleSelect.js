@@ -5,7 +5,8 @@ function buildCharList(playCode) {
     if (!playCode) {
         return;
     }
-    console.log("Did the thing");
+    const charList = playCodes[playCode]
+    submitButton.disabled = true;
 
     //Set default hidden value
     const defaultOption = document.createElement("option");
@@ -16,7 +17,12 @@ function buildCharList(playCode) {
     defaultOption.selected = true;
     charSelector.appendChild(defaultOption);
 
-    //TODO: Finish creating character dropdown
+    for (const character in charList) {
+        const charOption = document.createElement("option");
+        charOption.value = character;
+        charOption.textContent = charList[character];
+        charSelector.appendChild(charOption);
+    }
 
     charSelector.disabled = false;
     charSelector.classList.remove("opacity-50");
