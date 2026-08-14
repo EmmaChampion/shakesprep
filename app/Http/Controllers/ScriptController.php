@@ -25,10 +25,10 @@ class ScriptController extends Controller
         $character = $request->character;
         $response = Http::get("https://www.folgerdigitaltexts.org/{$play}/witScript/{$character}.html");
         if ($response->successful()) {
-            return view('script/characterScript', ['content' => $response]);
+            return view('script/characterScript', ['content' => $response, 'play' => $play, 'character' => $character]);
         }
         else {
-            return view('script/characterScript', ['content' => 'Error: Script creation failed']);
+            return view('script/characterScript', ['content' => 'Error: Script creation failed', 'play' => 'None', 'character' => 'None']);
         }
     }
 
