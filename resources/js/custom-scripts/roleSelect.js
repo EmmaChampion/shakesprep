@@ -17,6 +17,7 @@ function buildCharList(playCode) {
     defaultOption.selected = true;
     charSelector.appendChild(defaultOption);
 
+    //Make an option for each character in the chosen play
     for (const character in charList) {
         const charOption = document.createElement("option");
         charOption.value = character;
@@ -33,5 +34,3 @@ const charSelector = document.querySelector("#characterSelect");
 const submitButton = document.querySelector("#submit");
 playSelector.addEventListener("change", (e) => buildCharList(e.target.value));
 charSelector.addEventListener("change", () => submitButton.disabled = false);
-
-//TODO: Enable submit button once a character is selected
