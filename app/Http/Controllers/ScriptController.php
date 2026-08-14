@@ -12,15 +12,15 @@ class ScriptController extends Controller
      */
     public function index()
     {
-        //
+        return view('script/characterSelect');
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        dd($request->all());
     }
 
     /**

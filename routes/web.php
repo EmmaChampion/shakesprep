@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ScriptController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,7 +15,5 @@ Route::post('/contact', function() {
 Route::view('about', 'info/about');
 
 //Testing - Use Script model/controller later
-Route::view('script', 'script/characterSelect');
-Route::post('/script', function(Request $request) {
-    dd($request->all());
-});
+Route::get('/script', [ScriptController::class, 'index']);
+Route::post('/script', [ScriptController::class, 'create']);
