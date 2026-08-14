@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Script;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class ScriptController extends Controller
 {
@@ -20,7 +21,15 @@ class ScriptController extends Controller
      */
     public function create(Request $request)
     {
-        dd($request->all());
+        $play = $request->play;
+        $character = $request->character;
+        $response = Http::get("https://www.folgerdigitaltexts.org/{$play}/witScript/{$character}.html");
+        if ($response->successful()) {
+            return view('script/characterScript', ['content' => $response]);
+        }
+        else {
+            return view('script/characterScript', ['content' => 'Error: Script creation failed']);
+        }
     }
 
     /**
