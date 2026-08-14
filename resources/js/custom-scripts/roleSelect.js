@@ -32,5 +32,6 @@ const playSelector = document.querySelector("#playSelect");
 const charSelector = document.querySelector("#characterSelect");
 const submitButton = document.querySelector("#submit");
 playSelector.addEventListener("change", (e) => buildCharList(e.target.value));
+charSelector.addEventListener("change", () => submitButton.disabled = false);
 
 //TODO: Enable submit button once a character is selected

@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home');
@@ -14,3 +15,6 @@ Route::view('about', 'info/about');
 
 //Testing - Use Script model/controller later
 Route::view('script', 'script/characterSelect');
+Route::post('/script', function(Request $request) {
+    dd($request->all());
+});
