@@ -13,6 +13,7 @@ class ScriptController extends Controller
      */
     public function index()
     {
+        //Might change to show logged in user's saved scripts
         return view('script/characterSelect');
     }
 

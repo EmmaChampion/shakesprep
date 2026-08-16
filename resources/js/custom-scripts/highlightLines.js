@@ -2,7 +2,7 @@ import { playCodes } from "./playCodes.js";
 
 const charName = playCodes[window.playCode][window.characterCode];
 document.title = charName + " Script";
-const content = document.querySelector("main");
+const content = document.querySelector("#script-container");
 
 const speakers = Array.from(document.querySelectorAll(".speaker"))
     .filter(speaker => speaker.textContent === charName.toUpperCase());
@@ -35,3 +35,7 @@ for (const line of charLines) {
     content.replaceChild(spanWrapper, line);
     spanWrapper.appendChild(line);
 }
+
+//TODO: Add dropdown to change highlight color
+//TODO: Add spoiler tag and single letter modes
+//TODO: Add jump to scene or only display chosen scene
