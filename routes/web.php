@@ -14,6 +14,9 @@ Route::post('/contact', function() {
 
 Route::view('about', 'info/about');
 
-//Testing - Use Script model/controller later
+Route::view('monologue', 'monologues/monologue');
+
 Route::get('/script', [ScriptController::class, 'index']);
 Route::post('/script', [ScriptController::class, 'create']);
+
+Route::view('schedule', 'schedule/plan');

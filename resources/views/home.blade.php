@@ -17,7 +17,7 @@
         <h1 class="text-3xl font-bold">Get Started!</h1>
         <div class="flex flex-col items-center">
             <h3 class="text-lg font-medium m-2 text-center">Preparing for an audition?</h3>
-            <a class="btn btn-lg w-56" href="/monologues">Find a Monologue</a>
+            <a class="btn btn-lg w-56" href="/monologue">Find a Monologue</a>
         </div>
         <div class="flex flex-col items-center">
             <h3 class="text-lg font-medium m-2 text-center">Preparing for a performance?</h3>
