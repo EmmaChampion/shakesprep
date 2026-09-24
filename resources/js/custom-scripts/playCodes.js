@@ -1,4 +1,76 @@
 //"APIName" : "scriptName"
+const allsWellChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const antCleoChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const ayliChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const comErrChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const corioChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const cymChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const hamletChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const h4p1Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const h4p2Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const h5Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const h6p1Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const h6p2Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const h6p3Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const h8Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const caesarChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const johnChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const learChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const lovesLaborsChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
 const macbethChars = {
     "ATTENDANTS" : "Attendant",
     "Angus" : "Angus",
@@ -49,44 +121,120 @@ const macbethChars = {
     "YoungSiward" : "Young Siward"
 }
 
+const measureChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const merchantChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const wivesChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const midsummerChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const muchAdoChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const othelloChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const periclesChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const r2Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const r3Chars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const romeoChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const shrewChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const tempestChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const timonChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const titusChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const troilusChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const twelfthChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const veronaChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const kinsmenChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
+const winterChars = {
+    "PLACEHOLDER" : "PLACEHOLDER"
+}
+
 //"playCode" : "playName"
 export const playCodes = {
-    "AWW" : "All's Well That Ends Well",
-    "Ant" : "Antony and Cleopatra",
-    "AYL" : "As You Like It",
-    "Err" : "The Comedy of Errors",
-    "Cor" : "Coriolanus",
-    "Cym" : "Cymbeline",
-    "Ham" : "Hamlet",
-    "1H4" : "Henry IV, Part 1",
-    "2H4" : "Henry IV, Part 2",
-    "H5" : "Henry V",
-    "1H6" : "Henry VI, Part 1",
-    "2H6" : "Henry VI, Part 2",
-    "3H6" : "Henry VI, Part 3",
-    "H8" : "Henry VIII",
-    "JC" : "Julius Caesar",
-    "Jn" : "King John",
-    "Lr" : "King Lear",
-    "LLL" : "Love's Labor's Lost",
+    "AWW" : allsWellChars,
+    "Ant" : antCleoChars,
+    "AYL" : ayliChars,
+    "Err" : comErrChars,
+    "Cor" : corioChars,
+    "Cym" : cymChars,
+    "Ham" : hamletChars,
+    "1H4" : h4p1Chars,
+    "2H4" : h4p2Chars,
+    "H5" : h5Chars,
+    "1H6" : h6p1Chars,
+    "2H6" : h6p2Chars,
+    "3H6" : h6p3Chars,
+    "H8" : h8Chars,
+    "JC" : caesarChars,
+    "Jn" : johnChars,
+    "Lr" : learChars,
+    "LLL" : lovesLaborsChars,
     "Mac" : macbethChars,
-    "MM" : "Measure for Measure",
-    "MV" : "The Merchant of Venice",
-    "Wiv" : "The Merry Wives of Windsor",
-    "MND" : "A Midsummer Night's Dream",
-    "Ado" : "Much Ado About Nothing",
-    "Oth" : "Othello",
-    "Per" : "Pericles",
-    "R2" : "Richard II",
-    "R3" : "Richard III",
-    "Rom" : "Romeo and Juliet",
-    "Shr" : "The Taming of the Shrew",
-    "Tmp" : "The Tempest",
-    "Tim" : "Timon of Athens",
-    "Tit" : "Titus Andronicus",
-    "Tro" : "Troilus and Cressida",
-    "TN" : "Twelfth Night",
-    "TGV" : "Two Gentlemen of Verona",
-    "TNK" : "Two Noble Kinsmen",
-    "WT" : "The Winter's Tale"
+    "MM" : measureChars,
+    "MV" : merchantChars,
+    "Wiv" : wivesChars,
+    "MND" : midsummerChars,
+    "Ado" : muchAdoChars,
+    "Oth" : othelloChars,
+    "Per" : periclesChars,
+    "R2" : r2Chars,
+    "R3" : r3Chars,
+    "Rom" : romeoChars,
+    "Shr" : shrewChars,
+    "Tmp" : tempestChars,
+    "Tim" : timonChars,
+    "Tit" : titusChars,
+    "Tro" : troilusChars,
+    "TN" : twelfthChars,
+    "TGV" : veronaChars,
+    "TNK" : kinsmenChars,
+    "WT" : winterChars
 }
