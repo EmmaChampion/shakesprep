@@ -1,6 +1,34 @@
 //"APIName" : "scriptName"
 const allsWellChars = {
-    "PLACEHOLDER" : "PLACEHOLDER"
+    "ATTENDANTS" : "Attendant",
+    "ATTENDANTS.KING" : "King's Attendant",
+    "Bertram" : "Bertram",
+    "CITIZENS" : "Citizen",
+    "Countess" : "Countess",
+    "Diana" : "Diana",
+    "Duke" : "Duke",
+    "Fool" : "Fool",
+    "GENTLEMEN.1" : "First Gentleman",
+    "GENTLEMEN.2" : "Second Gentleman",
+    "GENTLEMEN.3" : "Gentleman",
+    "Helen" : "Helen",
+    "King" : "King",
+    "LORDS.COURT.1" : "First Court Lord",
+    "LORDS.COURT.2" : "Second Court Lord",
+    "LORDS.COURT.3" : "Third Court Lord",
+    "LORDS.COURT.4" : "Fourth Court Lord",
+    "LORDS.DUMANE.1" : "First Lord",
+    "LORDS.DUMANE.2" : "Second Lord",
+    "Lafew" : "Lafew",
+    "Mariana" : "Mariana",
+    "Page" : "Page",
+    "Parolles" : "Parolles",
+    "SOLDIERS" : "First Soldier",
+    "SOLDIERS" : "Second Soldier",
+    "SOLDIERS.Interpreter" : "Interpreter",
+    "Servant" : "Servant",
+    "Steward" : "Steward",
+    "Widow" : "Widow"
 }
 
 const antCleoChars = {
